@@ -1,7 +1,6 @@
 
-body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto',sans-serif;
+body {
+    font-family: 'Roboto' , sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -27,7 +26,7 @@ button {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 117%;
+        line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #2e2f42;
@@ -36,24 +35,25 @@ button {
 
 
 .header-menu-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #4d5ae5;
+    color: #434455;
+    text-decoration: none;
 
 }
 
-
-.header-logo-italic {
-    line-height: 117%;
+.logo{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color:#2e2f42;
+        text-decoration: none;
+        color: #2e2f42;
+}
 
+.header-logo-accent {
+    color: #4d5ae5;
+    
 }
 
 
@@ -67,6 +67,18 @@ button {
         letter-spacing: 0.02em;
         color: #2e2f42;
 
+}
+
+
+.adress{
+    font-style: normal;
+}
+
+
+.header-menu-item:hover,
+.header-menu-item:focus {
+    color: #404bbf;
+    outline: none;
 }
 
 .hero {
@@ -88,7 +100,7 @@ background: #2e2f42;
 }
 
 .hero-btn {
-    background-color:#4d5ae5;;
+    background-color:#404bbf;
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -97,6 +109,8 @@ background: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        outline: none;
+        cursor: pointer;
 
 }
 
@@ -142,13 +156,20 @@ background: #2e2f42;
         text-align: center;
         color: #2e2f42;
 
+
+}
+
+.taste-item_bg{
+    background-color: #fff;
 }
 
 
 .taste-subtitle {
+
     font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
+       text-transform: capitalize;
+    font-weight: 500;
+        font-size: 36px;
     
         /* line-height: 24px; */
         line-height: 1.2;
@@ -175,9 +196,10 @@ background: #2e2f42;
 
 
 
-.portfolio-item {
-
+.portfolio-title{
+    
 font-family: "Roboto", sans-serif;
+
         font-weight: 700;
         font-size: 36px;
     
@@ -193,6 +215,7 @@ font-family: "Roboto", sans-serif;
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
+        text-transform: capitalize;
     
         /* line-height: 24px; */
         line-height: 1.2;
@@ -200,6 +223,11 @@ font-family: "Roboto", sans-serif;
         color: #2e2f42;
 
 }
+
+.portfolio-card{
+    background-color: #fff;
+}
+
 .footer{
     background: #2e2f42;
 }
@@ -216,6 +244,19 @@ font-family: "Roboto", sans-serif;
         color: #434455;
 
 }
+
+
+
+.footer-logo-text-italic{
+ font-style: italic;
+ color: #2e2f42;
+}
+
+.footer-logo-spun-italic{
+    font-style: italic;
+        color: #f4f4fd;
+}
+
 .footer-text{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -224,29 +265,5 @@ font-family: "Roboto", sans-serif;
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #f4f4fd;
-}
-
-.header-logo-text-italic{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-    
-        /* line-height: 21px; */
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-}
-
-.header-logo-spun-italic{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-    
-        /* line-height: 21px; */
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #f4f4fd;
 }
