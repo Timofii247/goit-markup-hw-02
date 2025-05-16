@@ -80,8 +80,20 @@ button {
 }
 
 .header-menu-item-adres{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
     color: #434455;
 }
+.header-menu-item-adres:hover,
+.header-menu-item-adres:focus{
+    color: #404bbf;
+    outline: none;
+}
+
 
 .header-menu-item:hover,
 .header-menu-item:focus {
