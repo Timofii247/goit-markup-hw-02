@@ -35,7 +35,6 @@ button {
 
 
 .header-menu-link {
-    color: #434455;
     text-decoration: none;
 
 }
@@ -180,7 +179,7 @@ background: #2e2f42;
 
 }
 
-.taste-text {
+.taste-item-text {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -210,20 +209,6 @@ text-transform: capitalize;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-}
-
-
-.portfolio-title {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        text-transform: capitalize;
-    
-        /* line-height: 24px; */
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-
 }
 
 .portfolio-card{
@@ -256,6 +241,16 @@ font-family: 'Raleway', sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 
+}
+.portfolio-main-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 
 
