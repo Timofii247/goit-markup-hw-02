@@ -47,7 +47,12 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color:#4d5ae5;
+        color:#434455;
+}
+
+.header .logo {
+    color: #4d5ae5;
+    /* нужный по дизайну */
 }
 
 
