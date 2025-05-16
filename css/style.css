@@ -48,11 +48,11 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color: #2e2f42;
+        color:#4d5ae5;
 }
 
 .header-logo-accent {
-    color: #4d5ae5;
+    color: #2e2f42;
     
 }
 
@@ -100,7 +100,7 @@ background: #2e2f42;
 }
 
 .hero-btn {
-    background-color:#404bbf;
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -146,12 +146,13 @@ background: #2e2f42;
 
 
 .taste-title {
+    text-transform: capitalize;
     font-family: "Roboto", sans-serif;
         font-weight: 700;
-        font-size: 36px;
+        font-size: 20px;
     
         /* line-height: 40px; */
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -199,12 +200,13 @@ background: #2e2f42;
 .portfolio-title{
     
 font-family: "Roboto", sans-serif;
+text-transform: capitalize;
 
         font-weight: 700;
         font-size: 36px;
     
         /* line-height: 40px; */
-        line-height: 1.11;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -232,6 +234,17 @@ font-family: "Roboto", sans-serif;
     background: #2e2f42;
 }
 
+.footer-logo{
+font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+
 
 .portfolio-subtitle {
     font-family: "Roboto", sans-serif;
@@ -247,13 +260,9 @@ font-family: "Roboto", sans-serif;
 
 
 
-.footer-logo-text-italic{
- font-style: italic;
- color: #2e2f42;
-}
-
-.footer-logo-spun-italic{
-    font-style: italic;
+.footer-logo-accent
+{
+   
         color: #f4f4fd;
 }
 
