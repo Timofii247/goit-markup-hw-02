@@ -61,7 +61,7 @@ button {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
-    color: #434455;
+    color: #2e2f42;
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -155,6 +155,16 @@ background: #2e2f42;
     background-color:  #f4f4fd;
 }
 
+.section-title{
+    font-family: "Roboto", sans-serif;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
 
 .taste-title {
