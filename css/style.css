@@ -50,6 +50,7 @@ button {
         color:#4d5ae5;
 }
 
+
 .header-logo-accent {
     color: #2e2f42;
     
@@ -61,12 +62,12 @@ button {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
-    color: #2e2f42;
+   
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
         
-
+ color: #2e2f42;
 }
 
 
